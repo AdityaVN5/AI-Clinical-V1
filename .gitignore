@@ -1,3 +1,71 @@
+# Environment variables and secrets
 .env
-.venv/*
-venv/*
+.env.local
+.env.*.local
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Pytest / Testing / Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.hypothesis/
+
+# Database files
+database/*.db
+database/*.sqlite3
+database/*.sqlite
+*.db
+*.sqlite3
+*.sqlite
+
+# Reports / Generated files
+reports/*
+!reports/.gitkeep
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.gemini/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
